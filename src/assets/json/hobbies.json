@@ -1,0 +1,17 @@
+[{
+  "title": "Snowboarding",
+  "description": "When I first moved to New Zealand I spent 4 months down in Queenstown snowboarding every day. I went from a beginner to doing my first jump within those 4 months.",
+  "imageUrl": "snowboarding.jpg"
+}, {
+  "title": "Woodworking",
+  "description": "After moving to Christchurch I fell in love with the kiwi culture of DIY, overhearing co-workers talking about building things for their children (sandboxes, picnic benches) I decided to buy some tools and learn how to use them.",
+  "imageUrl": "woodworking.jpg"
+}, {
+  "title": "Programming",
+  "description": "From the age of 12 I have been programming, I attended university studying computer games programming and now my full time job is programming full time.",
+  "imageUrl": "programming.jpg"
+}, {
+  "title": "Dog Training",
+  "description": "My girlfriend and I own a dog together. She is a Staffy cross Shar Pei, and we have lots of fun teaching her to \"Roll Over\", \"Shake\" or \"Play Dead\".",
+  "imageUrl": "kora.jpg"
+}]

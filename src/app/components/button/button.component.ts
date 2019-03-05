@@ -9,7 +9,8 @@ import { Router } from '@angular/router';
 export class ButtonComponent implements OnInit {
   @Input() message: string;
   @Input() link: string;
-  @Input() goToPage: boolean;
+  @Input() callBack: Function;
+  @Input() goToPage = false;
 
   constructor(private router: Router) { }
 
@@ -19,6 +20,8 @@ export class ButtonComponent implements OnInit {
   onClick() {
     if (this.goToPage && this.link !== undefined) {
       this.router.navigateByUrl('/' + this.link);
+    } else if (this.callBack !== undefined) {
+      this.callBack(this.message);
     }
   }
 }
